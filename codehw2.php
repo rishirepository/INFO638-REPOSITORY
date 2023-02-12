@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <title>Code HW2</title>
     </head>
     <body>
         <?php
@@ -120,3 +120,4 @@
             twoheads();
         ?>
     </body>
+</html>
