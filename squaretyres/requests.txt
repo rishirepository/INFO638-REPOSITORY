@@ -1,0 +1,22 @@
+<?php
+	require_once 'conn.php';
+ 
+
+		$sql = "SELECT * FROM request";
+		$query = $conn->prepare($sql);
+		$query->execute();
+ 
+		while($fetch = $query->fetch()){
+?>
+ 
+<tr>
+	<td><?php echo $fetch['requester_fname']?></td>
+	<td><?php echo $fetch['requester_lname']?></td>
+	<td><?php echo $fetch['request_name']?></td>
+    <td><?php echo $fetch['request_reason']?></td>
+</tr>
+ 
+<?php
+		
+	}
+?>

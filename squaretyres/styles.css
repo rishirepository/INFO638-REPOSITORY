@@ -1,0 +1,232 @@
+nav{
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align:center;
+  }
+body{
+    background-color: #f8f8ff;
+}
+nav a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-decoration:none;
+    color:#252525;
+    margin:0 64px;
+    font-size:24px;
+    position:relative;
+    display:inline-block;
+  }
+nav a:hover{
+    transform: scale(1.2);
+}
+.intro{
+    padding-bottom: 64px;
+    margin-left: 256px;
+    width: 50%;
+}
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:32px;
+    text-decoration:none;
+    color:#252525;
+}
+.gallery{
+    margin-left: 256px;
+    margin-right: 256px;
+   
+}
+.gallery a img{
+    width: 128px;
+    height: 128px;
+}
+.gallery a img:hover {
+    transform: scale(1.2);
+}
+.artdetails{
+    padding-top: 64px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.artdetails img{
+    width: 600px;
+    height: 600px;
+    float: left;
+    padding-right: 32px;
+}
+.artdetails h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size:50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.artdetails h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    opacity: 50%;
+}
+.artdetails p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:24px;
+    
+}
+.reason{
+    font-style: italic;
+    
+}
+.requests{
+    font-family: 'Inter', sans-serif;
+    font-size:20px;
+    padding-top: 64px;
+    margin-left: 256px;
+    margin-right: 256px;
+    border-spacing: 0;
+}
+.requests th{
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+    border-bottom: solid 2px #252525;
+   }
+.requests td{
+ padding-left: 64px;
+ padding-right: 64px;
+ padding-top: 16px;
+ padding-bottom: 16px;
+ text-align: left;
+ border-bottom: solid 1px #252525;
+}
+.header{
+    padding-top: 64px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.header h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size:50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.req{
+    padding-top: 64px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.req h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size:50px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+form{
+    padding-top: 64px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 16px 0;
+    display: inline-block;
+    border: 1px solid #252525;
+    background-color: #f8f8ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 32%;
+    color: #252525;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #252525;
+    border-radius: 4px;
+    background-color: #f8f8ff
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #252525;
+    color: #f8f8ff;
+    cursor: pointer;
+  }
+  label{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .feedback{
+    padding-top: 64px;
+    margin-left: 256px;
+    margin-right: 256px;
+  }
+  .feedback p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .artistdetails{
+    padding-top: 64px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+.artistdetails img{
+    width: 320px;
+    height: 320px;
+    float: left;
+    padding-right: 32px;
+}
+.artistdetails h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size:32px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.artistdetails h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    opacity: 50%;
+}
+.artistdetails p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:24px;
+} 
+.artistdetails a{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size:24px;
+    color: #252525;
+} 
+.footer {
+    position: fixed;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #252525;
+    text-align: center;
+    padding-bottom: 16px;
+  }
